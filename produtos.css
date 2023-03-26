@@ -1,0 +1,122 @@
+header {
+    background: #bbbbbb;
+    padding: 20px 0;
+}
+
+.caixa {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+/* INICIO DO MAIN PRODUTOS */ 
+
+.produtos {
+    width: 950px;
+    margin: 0 auto;
+}
+
+.produtos li{
+    display: inline-block;
+    border: 2px solid black;
+    width: 30%;
+    vertical-align: top;
+    text-align: center;
+    border-radius: 10%;
+    margin: 20px 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+
+.produtos h2 {
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+.produtos p {
+    font-size: 18px;
+    
+}
+
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0 0;
+}
+
+/* QUANDO PASSAR O MOUSE No menu */ 
+
+
+nav a:hover {
+    color: #d3e018;
+    text-decoration: underline;
+}
+
+nav li:hover {
+    display: inline;
+    margin: 0 0 0 15px;
+    border: 1px solid;
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 10px;
+
+}
+/* QUANDO PASSAR O MOUSE NOS PRODUTOS*/ 
+
+.produtos li:hover {
+    border: 2px solid rgb(221, 224, 32);
+}
+
+/* RODAPE DO SITE*/ 
+
+footer {
+    text-align: center;
+    background-image: url(img/bg.jpg);
+    padding: 40px 0;
+}
+
+footer p {
+    color: white;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 480px){
+    .caixa, .principal, .Beneficios, .mapa2, .video  {
+        width: auto;
+    }
+
+    .caixa h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+/* INICIO DO MAIN PRODUTOS */ 
+    .produtos {
+        width: 950px;
+        margin: 0 10%;
+    }
+    
+
+}
